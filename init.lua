@@ -6,6 +6,8 @@ vim.cmd("set shiftwidth=2")
 -- https://jeffkreeftmeijer.com/vim-number/
 vim.cmd("set number relativenumber") -- relativenumber")
 
+vim.g.mapleader = " "
+
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -21,11 +23,20 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  {
+    'nvim-telescope/telescope.nvim', tag = '0.1.6',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+  }
 }
 local opts = {}
 
 require("lazy").setup(plugins, opts)
+
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<Leader> ', builtin.find_files, {})
+
+
 
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
