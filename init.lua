@@ -3,6 +3,10 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
+-- https://jeffkreeftmeijer.com/vim-number/
+vim.cmd("set number relativenumber") -- relativenumber")
+
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
