@@ -8,7 +8,6 @@ vim.cmd("set number relativenumber") -- relativenumber")
 
 vim.g.mapleader = " "
 
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -22,23 +21,39 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  {
-    'nvim-telescope/telescope.nvim', tag = '0.1.6',
-    dependencies = { 'nvim-lua/plenary.nvim' }
-  }
-}
+local plugins = {{
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000
+}, {
+    'nvim-telescope/telescope.nvim',
+    tag = '0.1.6',
+    dependencies = {'nvim-lua/plenary.nvim'}
+}, {
+    "kdheepak/lazygit.nvim",
+    cmd = {"LazyGit", "LazyGitConfig", "LazyGitCurrentFile", "LazyGitFilter", "LazyGitFilterCurrentFile"},
+    -- optional for floating window border decoration
+    dependencies = {"nvim-lua/plenary.nvim"},
+    -- setting the keybinding for LazyGit with 'keys' is recommended in
+    -- order to load the plugin when the command is run for the first time
+    keys = {{
+        "<leader>lg",
+        "<cmd>LazyGit<cr>",
+        desc = "LazyGit"
+    }}
+}}
 local opts = {}
 
 require("lazy").setup(plugins, opts)
 
+-- Configure Telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<Leader> ', builtin.find_files, {})
 vim.keymap.set('n', '<Leader>g', builtin.live_grep, {})
 vim.keymap.set('n', '<Leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<Leader>fc', builtin.commands, {})
 
+-- Configure Catppuccin Theme 
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
 
