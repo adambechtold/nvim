@@ -39,7 +39,11 @@ vim.keymap.set('n', '<Leader>g', builtin.live_grep, {})
 vim.keymap.set('n', '<Leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<Leader>fc', builtin.commands, {})
 
-
-
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
+
+--[[
+Plugins of Interest:
+- Manage Bufferes as clickable, reorderable tabs: barbar https://github.com/romgrk/barbar.nvim
+]]
+
