@@ -72,6 +72,10 @@ vim.cmd.colorscheme "catppuccin"
 
 --[[
 Plugins of Interest:
-- Manage Bufferes as clickable, reorderable tabs: barbar https://github.com/romgrk/barbar.nvim
+- Manage Buffers as clickable, reorderable tabs: barbar https://github.com/romgrk/barbar.nvim
+- See Directory: neo-tree https://github.com/nvim-neo-tree/neo-tree.nvim
+- A more clear line at the bottom that shows the current state of neovim (e.g. insert, replace, etc.): lualine https://github.com/nvim-lualine/lualine.nvim?tab=readme-ov-file
+
+- List of Plugins from LazyVim: http://www.lazyvim.org
 ]]
 
