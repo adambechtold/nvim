@@ -8,6 +8,22 @@ return  {
     -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
   },
   config = function() 
-    vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal right<CR>', {})
+    vim.keymap.set('n', '<C-n>', ':Neotree toggle<CR>', {})
+    require("neo-tree").setup({
+      window = {
+        position = "right",
+      },
+      event_handlers = {
+        {
+          event = "file_opened",
+          handler = function(file_path)
+            -- auto close
+            -- vimc.cmd("Neotree close")
+            -- OR
+            require("neo-tree.command").execute({ action = "close" })
+          end
+        }
+      }
+    })
   end
 }
