@@ -21,6 +21,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- Video explaining how to organize neovim plugins into folders https://www.youtube.com/watch?v=4zyZ3sw_ulc
 require("lazy").setup("plugins")
 
 --[[
