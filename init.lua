@@ -1,10 +1,3 @@
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-
--- https://jeffkreeftmeijer.com/vim-number/
-vim.cmd("set number relativenumber") -- relativenumber")
 
 vim.g.mapleader = " "
 
@@ -23,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Video explaining how to organize neovim plugins into folders https://www.youtube.com/watch?v=4zyZ3sw_ulc
 require("lazy").setup("plugins")
+require("vim-config")
 
 --[[
 Plugins of Interest:
