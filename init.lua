@@ -23,9 +23,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
--- Configure NeoTree
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal right<CR>', {})
-
 --[[
 Plugins of Interest:
 - Manage Buffers as clickable, reorderable tabs: barbar https://github.com/romgrk/barbar.nvim
