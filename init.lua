@@ -53,7 +53,8 @@ local plugins = {{
         -- your configuration comes here
         -- or leave it empty to use the default settings
         -- refer to the configuration section below
-    }
+    },
+    {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}
 }}
 local opts = {}
 
@@ -69,6 +70,14 @@ vim.keymap.set('n', '<Leader>fc', builtin.commands, {})
 -- Configure Catppuccin Theme 
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
+
+-- Configure TreeSitter
+local tree_sitter_config = require("nvim-treesitter.configs")
+tree_sitter_config.setup({
+  ensure_installed = { "arduino", "css", "go", "html", "javascript", "json", "lua", "markdown", "python", "typescript", "vim", "yaml", "zig" },
+  highlight = { enabled = true },
+  indent = { enabled = true }
+})
 
 --[[
 Plugins of Interest:
