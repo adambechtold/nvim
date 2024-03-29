@@ -5,7 +5,7 @@ return {
 
     local tree_sitter_config = require("nvim-treesitter.configs")
     tree_sitter_config.setup({
-      ensure_installed = { "arduino", "css", "go", "html", "javascript", "json", "lua", "markdown", "python", "typescript", "vim", "yaml", "zig" },
+      auto_install = true,
       highlight = { enabled = true },
       indent = { enabled = true }
     })
