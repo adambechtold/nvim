@@ -1,22 +1,24 @@
-
 vim.g.mapleader = " "
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-  vim.fn.system({
-    "git",
-    "clone",
-    "--filter=blob:none",
-    "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable", -- latest stable release
-    lazypath,
-  })
+	vim.fn.system({
+		"git",
+		"clone",
+		"--filter=blob:none",
+		"https://github.com/folke/lazy.nvim.git",
+		"--branch=stable", -- latest stable release
+		lazypath,
+	})
 end
 vim.opt.rtp:prepend(lazypath)
 
 -- Video explaining how to organize neovim plugins into folders https://www.youtube.com/watch?v=4zyZ3sw_ulc
 require("lazy").setup("plugins")
 require("vim-config")
+
+vim.keymap.set("n", "<leader>bb", ":bp<CR>", {})
+vim.keymap.set("n", "<leader>bn", ":bn<CR>", {})
 
 --[[
 Plugins of Interest:
@@ -26,4 +28,3 @@ Plugins of Interest:
 
 - List of Plugins from LazyVim: http://www.lazyvim.org
 ]]
-
