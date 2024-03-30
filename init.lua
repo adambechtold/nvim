@@ -17,9 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 require("vim-config")
 
-vim.keymap.set("n", "<leader>bb", ":bp<CR>", {})
-vim.keymap.set("n", "<leader>bn", ":bn<CR>", {})
-
 --[[
 Plugins of Interest:
 - Manage Buffers as clickable, reorderable tabs: barbar https://github.com/romgrk/barbar.nvim

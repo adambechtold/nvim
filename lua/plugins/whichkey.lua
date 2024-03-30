@@ -17,6 +17,11 @@ return {
       ["]r"] = { "<cmd>lua require('illuminate').goto_next_reference{wrap=true}<CR>", "Next Reference" },
       ["[r"] = { "<cmd>lua require('illuminate').goto_prev_reference{wrap=true}<CR>", "Previous Reference" },
 
+      -- Move between buffers
+      ["]b"] = { ":bp<CR>", "Previous Buffer" },
+      ["[b"] = { ":bn<CR>", "Next Buffer" },
+
+
       -- Display Settings
       ["<leader>s"] =  "Settings",
       ["<leader>sd"] = { "<cmd>set background=dark<CR>", "Dark Background" },
