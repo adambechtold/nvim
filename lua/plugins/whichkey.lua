@@ -16,6 +16,12 @@ return {
     wk.register({
       ["]r"] = { "<cmd>lua require('illuminate').goto_next_reference{wrap=true}<CR>", "Next Reference" },
       ["[r"] = { "<cmd>lua require('illuminate').goto_prev_reference{wrap=true}<CR>", "Previous Reference" },
+
+      -- Display settings
+      ["<leader>sd"] = { "<cmd>set background=dark<CR>", "Dark Background" },
+      ["<leader>sl"] = { "<cmd>set background=light<CR>", "Light Background" },
+      ["<leader>sce"] =  { "<cmd>colorscheme everforest<CR>", "Set Colorscheme to Everforest" },
+      ["<leader>scc"] =  { "<cmd>colorscheme catppuccin<CR>", "Set Colorscheme to Catppuccin" },
     })
   end,
 }
