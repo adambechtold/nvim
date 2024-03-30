@@ -82,7 +82,7 @@ ESLINT
 - [ ] gruvbox
 - [ ] [embark theme](embark-theme.github.io) A deep inky purple theme leveraging bright colors. Designed to reduce visual clutter and help you focus on your code. Your editor can be both beautiful and useful. 
 - [x] everforest (sainnhe/everforest)
-- [ ] tokyonight (folke/tokyonight.nvim)
+- [x] tokyonight (folke/tokyonight.nvim)
 - [ ] nord
 - [ ] monakai / monokai-pro
 - [ ] text-to-colorscheme - generate a colorscheme from a piece of text with ai
