@@ -18,7 +18,7 @@ vim.diagnostic.config({
   - [ ] mini.diff
   - [ ] mini.files - File explorer
   - [ ] mini.surround
-  - [ ] mini.indentscope
+  - [x] mini.indentscope
 - [ ] bufferline.nvim (akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim
 - [ ] noice (folke/noice.nvim) - Highly experimental plugin that completely replaces the ui for messages, cmdline, and popupmenu
 - [ ] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
@@ -33,7 +33,7 @@ vim.diagnostic.config({
 - [ ] conform (stevearc/conform.nvim) - Formatter plugin
 - [ ] nvim-lint
 - [ ] dressing (stevearc/dressing.nvim) - "improve the default vim.ui interfaces"
-- [ ] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
+- [x] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
 
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
 - [ ] text-to-colorscheme - Generate a colorscheme from a piece of text with ai 
