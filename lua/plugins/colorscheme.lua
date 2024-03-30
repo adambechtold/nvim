@@ -1,13 +1,13 @@
--- All colorschemes without enabled = false will be loaded 
--- The highest priority colorscheme will be loaded first
+-- All colorschemes without enabled = false will be loaded
+-- The one with vim.cmd.colorscheme("name") will be the default
 
 return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    priority = 1000,
+    priority = 0,
     config = function()
-      vim.cmd.colorscheme("catppuccin")
+      -- vim.cmd.colorscheme("catppuccin")
     end,
   },
   {
@@ -21,6 +21,15 @@ return {
       })
       -- vim.cmd.colorscheme("everforest")
       -- vim.o.background = "light" -- do this in real time with `:set background=light`
+    end,
+  },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+    config = function()
+      vim.cmd.colorscheme("tokyonight-storm")
     end,
   },
 }

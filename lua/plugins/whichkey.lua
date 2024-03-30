@@ -17,11 +17,22 @@ return {
       ["]r"] = { "<cmd>lua require('illuminate').goto_next_reference{wrap=true}<CR>", "Next Reference" },
       ["[r"] = { "<cmd>lua require('illuminate').goto_prev_reference{wrap=true}<CR>", "Previous Reference" },
 
-      -- Display settings
+      -- Display Settings
+      ["<leader>s"] =  "Settings",
       ["<leader>sd"] = { "<cmd>set background=dark<CR>", "Dark Background" },
       ["<leader>sl"] = { "<cmd>set background=light<CR>", "Light Background" },
-      ["<leader>sce"] =  { "<cmd>colorscheme everforest<CR>", "Set Colorscheme to Everforest" },
-      ["<leader>scc"] =  { "<cmd>colorscheme catppuccin<CR>", "Set Colorscheme to Catppuccin" },
+      -- Themes
+      ["<leader>sc"] =  "Colorschemes",
+
+      ["<leader>sce"] =  { "<cmd>colorscheme everforest<CR>", "Everforest" },
+      ["<leader>scc"] =  { "<cmd>colorscheme catppuccin<CR>", "Catppuccin" },
+
+      ["<leader>sct"] =  "Tokyonight (multiple options)",
+      ["<leader>sct<CR>"] =  { "<cmd>colorscheme tokyonight-storm<CR>", "Tokyonight Storm (darker)" },
+      ["<leader>scts"] =  { "<cmd>colorscheme tokyonight-storm<CR>", "Tokyonight Storm (darker)" },
+      ["<leader>sctn"] =  { "<cmd>colorscheme tokyonight-night<CR>", "Tokyonight Night (darkest)" },
+      ["<leader>sctm"] =  { "<cmd>colorscheme tokyonight-moon<CR>", "Tokyonight Moon (dark-ish)" },
+      ["<leader>sctd"] =  { "<cmd>colorscheme tokyonight-day<CR>", "Tokyonight (light)" },
     })
   end,
 }
