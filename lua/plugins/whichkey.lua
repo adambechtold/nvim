@@ -99,6 +99,14 @@ return {
 			["]h"] = { "<cmd>lua require('gitsigns').next_hunk()<CR>", "Next Hunk" },
 			["[h"] = { "<cmd>lua require('gitsigns').prev_hunk()<CR>", "Previous Hunk" },
 			["<leader>gl"] = { "<cmd>LazyGit<CR>", "LazyGit" },
+
+			-- Terminal
+			["<leader>t"] = "Terminal",
+			["<leader>tv"] = { "<cmd>vsplit term://zsh<CR>i", "New Terminal Vertical Split" },
+			["<leader>th"] = { "<cmd>split<CR><c-w>j <cmd>term<CR>i", "New Terminal Horizontal Split" },
+			["<leader>tt"] = { "<cmd>tabnew term://zsh<CR>", "New Terminal Tab" },
+			["<leader>tq"] = { "<cmd>bd!<CR>q<CR>", "Close Current Terminal" },
+			-- Reminder: To escape terminal mode, use <C-\><C-n>
 		})
 	end,
 }
