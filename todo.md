@@ -19,7 +19,7 @@ vim.diagnostic.config({
   - [ ] mini.files - File explorer
   - [ ] mini.surround
   - [x] mini.indentscope
-- [ ] bufferline.nvim (akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim
+- [x] bufferline.nvim (akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim
 - [ ] noice (folke/noice.nvim) - Highly experimental plugin that completely replaces the ui for messages, cmdline, and popupmenu
 - [ ] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
 - [x] vim-illuminate (RRethy/vim-illuminate) - illuminate.vim - Vim plugin for automatically highlighting other uses of the word under the cursor.
