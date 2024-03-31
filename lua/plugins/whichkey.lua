@@ -56,6 +56,7 @@ return {
       ["<leader>gb"] = { "<cmd>lua require('gitsigns').blame_line()<CR>", "Blame Line" },
       ["]h"] = { "<cmd>lua require('gitsigns').next_hunk()<CR>", "Next Hunk" },
       ["[h"] = { "<cmd>lua require('gitsigns').prev_hunk()<CR>", "Previous Hunk" },
+      ["<leader>gl"] = { "<cmd>LazyGit<CR>", "LazyGit" },
     })
   end,
 }
