@@ -32,4 +32,8 @@ return {
       vim.cmd.colorscheme("tokyonight-storm")
     end,
   },
+  {
+    "maxmx03/solarized.nvim",
+    priority = 0,
+  }
 }
