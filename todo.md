@@ -29,7 +29,7 @@ vim.diagnostic.config({
 - [ ] harpoon (ThePrimeagen/harpoon) - Bounce between specific files more easily
 - [ ] neotest (nvim-neotest/neotest.nvim) - An extensible framework for interacting with tests within neovim
 - [ ] edgy (folke/edgy.nvim) - "Easily create and manage predefined window layouts, bringing a new edge to your workflow."
-- [ ] gitsigns.nvim - super fast git decorations 
+- [x] gitsigns.nvim - super fast git decorations 
 - [ ] conform (stevearc/conform.nvim) - Formatter plugin
 - [ ] nvim-lint
 - [ ] dressing (stevearc/dressing.nvim) - "improve the default vim.ui interfaces"
