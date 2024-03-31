@@ -71,17 +71,22 @@ return {
 				"Tokyonight (light)",
 			},
 
-      -- solarized
-      ["<leader>scs"] = "Solarized",
-      ["<leader>scsl"] = {
-        string.format("<cmd>set background=light<CR><cmd>colorscheme solarized<CR>%s", lualineCmd("solarized_light")),
-        "Solarized Light",
-      },
-      ["<leader>scsd"] = {
-        string.format("<cmd>set background=dark<CR><cmd>colorscheme solarized<CR>%s", lualineCmd("solarized_dark")),
-        "Solarized Dark",
-      },
-
+			-- solarized
+			["<leader>scs"] = "Solarized",
+			["<leader>scsl"] = {
+				string.format(
+					"<cmd>set background=light<CR><cmd>colorscheme solarized<CR>%s",
+					lualineCmd("solarized_light")
+				),
+				"Solarized Light",
+			},
+			["<leader>scsd"] = {
+				string.format(
+					"<cmd>set background=dark<CR><cmd>colorscheme solarized<CR>%s",
+					lualineCmd("solarized_dark")
+				),
+				"Solarized Dark",
+			},
 
 			-- Git Signs
 			["<leader>g"] = "Git",
