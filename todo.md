@@ -14,7 +14,7 @@ vim.diagnostic.config({
 - [ ] todo-comments (folke/todo-comments.nvim) - ✅ ✏️ Highlight, list and search todo comments in your projects
 - [ ] mini.nvim (echasnovski/mini.nvim)
   - [ ] mini.comment 
-  - [ ] mini.pairs
+  - [x] mini.pairs
   - [ ] mini.diff
   - [ ] mini.files - File explorer
   - [ ] mini.surround
