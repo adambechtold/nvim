@@ -47,7 +47,7 @@ vim.diagnostic.config({
 
 ### From a reddit post with a cool setup 
 - [x] navic (with barbecue) or lsp saga
-- [ ] lightlight - an alternative to lualine
+- [ ] lightline - an alternative to lualine
 
 
 
