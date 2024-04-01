@@ -119,6 +119,10 @@ return {
       -- bd# - delete current buffer
 
       ["bl"] = { "<cmd>ls<CR>", "List Buffers" },
+
+      -- Spelling
+      ["<leader>ss"] = "Spelling",
+      ["<leader>sst"] = { "<cmd>set spell! spelllang=en_us<CR>", "Toggle Spelling" },
     })
   end,
 }

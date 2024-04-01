@@ -1,5 +1,5 @@
 # Priorities
-- [ ] Integrate Spellcheck
+- [x] Integrate Spellcheck
 - [ ] Fix eslint and get it to work with tslint.json files in contrail projects
 - [ ] Set up tmux so I can bounce between various projects
 
@@ -29,7 +29,7 @@ vim.diagnostic.config({
 - [ ] noice (folke/noice.nvim) - Highly experimental plugin that completely replaces the ui for messages, cmdline, and popupmenu
 - [ ] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
 - [x] vim-illuminate (RRethy/vim-illuminate) - illuminate.vim - Vim plugin for automatically highlighting other uses of the word under the cursor.
-- [ ] yanky (gbprod/yank.nvim) - Improved yank and put functionalitys for neovim (e.g. yank history)
+- [ ] yanky (gbprod/yank.nvim) - Improved yank and put functionalities for neovim (e.g. yank history)
 - [x] aerial (stevearc/aerial.nvim) - Code outline window
   - [ ] compare to outline.nvim (hedyhli/outline.nvim)
 - [ ] harpoon (ThePrimeagen/harpoon) - Bounce between specific files more easily
@@ -75,7 +75,7 @@ ESLINT
 
 ### Motion Changes (I'm skeptical of these because I don't want to get used to motions that don't exist in vanilla vim)
 - [ ] leap.nvim (ggandor / leap.vim) - neovim's answer to the mouse
-- [ ] flash.nvim (folke/flash.nvim) - Navigate your code with search labels, enhanced character motions, and treesitter inegration
+- [ ] flash.nvim (folke/flash.nvim) - Navigate your code with search labels, enhanced character motions, and treesitter integration
 - [ ] flit (ggandor/flit.nvim) - Enhanced f/t motions for Leap
 
 ## Themes to Try
@@ -84,6 +84,6 @@ ESLINT
 - [x] everforest (sainnhe/everforest)
 - [x] tokyonight (folke/tokyonight.nvim)
 - [ ] nord
-- [ ] monakai / monokai-pro
+- [ ] monokai / monokai-pro
 - [ ] text-to-colorscheme - generate a colorscheme from a piece of text with ai
 
