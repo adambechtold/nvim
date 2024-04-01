@@ -24,7 +24,7 @@ vim.diagnostic.config({
 - [ ] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
 - [x] vim-illuminate (RRethy/vim-illuminate) - illuminate.vim - Vim plugin for automatically highlighting other uses of the word under the cursor.
 - [ ] yanky (gbprod/yank.nvim) - Improved yank and put functionalitys for neovim (e.g. yank history)
-- [ ] aeral (stevearc/aerial.nvim) - Code outline window
+- [x] aerial (stevearc/aerial.nvim) - Code outline window
   - [ ] compare to outline.nvim (hedyhli/outline.nvim)
 - [ ] harpoon (ThePrimeagen/harpoon) - Bounce between specific files more easily
 - [ ] neotest (nvim-neotest/neotest.nvim) - An extensible framework for interacting with tests within neovim
