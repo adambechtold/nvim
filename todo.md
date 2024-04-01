@@ -36,7 +36,6 @@ vim.diagnostic.config({
 - [x] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
 
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
-- [ ] text-to-colorscheme - Generate a colorscheme from a piece of text with ai 
 
 
 - [ ] create an "open in nvim" app that makes nvim in iterm the default editor for most files
