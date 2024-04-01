@@ -5,3 +5,7 @@ vim.cmd("set shiftwidth=2")
 
 -- https://jeffkreeftmeijer.com/vim-number/
 vim.cmd("set number relativenumber") -- relativenumber")
+
+-- folds
+vim.cmd("set foldmethod=indent")
+vim.cmd("set foldlevel=3")
