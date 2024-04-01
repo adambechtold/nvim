@@ -1,3 +1,9 @@
+# Priorities
+- [ ] Integrate Spellcheck
+- [ ] Fix eslint and get it to work with tslint.json files in contrail projects
+- [ ] Set up tmux so I can bounce between various projects
+
+## Update LSP
 - [ ] Consider updating the lsp so that it updates it's warning during insert mode
 
 ```lua
@@ -49,10 +55,8 @@ vim.diagnostic.config({
 - [ ] lightline - an alternative to lualine
 
 
-
 ESLINT
 - [ ] Check out the instructions within the lazy wiki. There's a pattern that uses `lazyvim.plugins.extras...` to install eslint functionality
-
 
 
 ### Learn to navigate buffers
@@ -75,7 +79,6 @@ ESLINT
 - [ ] leap.nvim (ggandor / leap.vim) - neovim's answer to the mouse
 - [ ] flash.nvim (folke/flash.nvim) - Navigate your code with search labels, enhanced character motions, and treesitter inegration
 - [ ] flit (ggandor/flit.nvim) - Enhanced f/t motions for Leap
-  
 
 ## Themes to Try
 - [ ] gruvbox
