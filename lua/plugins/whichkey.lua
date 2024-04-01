@@ -123,6 +123,12 @@ return {
       -- Spelling
       ["<leader>ss"] = "Spelling",
       ["<leader>sst"] = { "<cmd>set spell! spelllang=en_us<CR>", "Toggle Spelling" },
+
+      -- Fold Modes
+      ["<leader>sz"] = "Folds",
+      ["<leader>szm"] = { "<cmd>set foldmethod=manual<CR>", "Manual" },
+      ["<leader>szc"] = { "<cmd>set foldmethod=indent<CR>", "Indent" },
+      ["<leader>sza"] = { "<cmd>set foldmethod=syntax<CR>", "Syntax" },
     })
   end,
 }
