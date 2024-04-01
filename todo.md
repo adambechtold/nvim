@@ -48,8 +48,6 @@ vim.diagnostic.config({
 - [ ] update iterm app icon to be a terminal with a neovim logo (see reddit post from u/danbee "I made a neovim icon for macos". The high contrast icon looks best)
 - [ ] ncim-scissors - Make it easier to create and edit snippets
 
-
-
 ### From a reddit post with a cool setup 
 - [x] navic (with barbecue) or lsp saga
 - [ ] lightline - an alternative to lualine
@@ -88,5 +86,4 @@ ESLINT
 - [ ] nord
 - [ ] monakai / monokai-pro
 - [ ] text-to-colorscheme - generate a colorscheme from a piece of text with ai
-
 
