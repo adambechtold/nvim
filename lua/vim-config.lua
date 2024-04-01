@@ -10,6 +10,9 @@ vim.cmd("set number relativenumber") -- relativenumber")
 vim.cmd("set foldmethod=indent")
 vim.cmd("set foldlevel=3")
 
+-- Search
+vim.cmd("set smartcase") -- case-insensitive search, unless the search pattern has a capital letter
+
 -- spelling 
 vim.cmd("set spell spelllang=en_us")
 -- Reminders
