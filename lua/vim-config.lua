@@ -8,7 +8,7 @@ vim.cmd("set number relativenumber") -- relativenumber")
 
 -- folds
 vim.cmd("set foldmethod=indent")
-vim.cmd("set foldlevel=3")
+vim.cmd("set foldlevel=10")
 
 -- Search
 vim.cmd("set smartcase") -- case-insensitive search, unless the search pattern has a capital letter
