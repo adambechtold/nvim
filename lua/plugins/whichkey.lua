@@ -22,8 +22,8 @@ return {
       ["[r"] = { "<cmd>lua require('illuminate').goto_prev_reference{wrap=true}<CR>", "Previous Reference" },
 
       -- Move between buffers
-      ["]b"] = { ":bp<CR>", "Previous Buffer" },
-      ["[b"] = { ":bn<CR>", "Next Buffer" },
+      ["[b"] = { ":bp<CR>", "Previous Buffer" },
+      ["]b"] = { ":bn<CR>", "Next Buffer" },
 
       -- Telescope
       ["<leader> "] = { "<cmd>Telescope find_files<CR>", "Find Files" },
