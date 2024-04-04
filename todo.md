@@ -16,6 +16,7 @@ vim.diagnostic.config({
 
 ## Plugins to Try
 - [ ] telescope-undo.nvim
+- [ ] undo-tree 
 - [ ] inc-rename (smjonas / inc-rename.nvim) Incremental renaming for Neovim based on neovim's command-preview feature
 - [ ] todo-comments (folke/todo-comments.nvim) - ✅ ✏️ Highlight, list and search todo comments in your projects
 - [ ] mini.nvim (echasnovski/mini.nvim)
@@ -41,7 +42,11 @@ vim.diagnostic.config({
 - [ ] dressing (stevearc/dressing.nvim) - "improve the default vim.ui interfaces"
 - [x] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
 
+## Tools for Git
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
+- [ ] PR Review Tool (octo seemed to be recommended a little bit more. It has some nice docs)
+    - [ ] octo.nvim
+    - [ ] gh.vim
 
 
 - [ ] create an "open in nvim" app that makes nvim in iterm the default editor for most files
