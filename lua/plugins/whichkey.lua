@@ -18,6 +18,7 @@ return {
 
 		local wk = require("which-key")
 		wk.register({
+      -- Illuminate
 			["]r"] = { "<cmd>lua require('illuminate').goto_next_reference{wrap=true}<CR>", "Next Reference" },
 			["[r"] = { "<cmd>lua require('illuminate').goto_prev_reference{wrap=true}<CR>", "Previous Reference" },
 
