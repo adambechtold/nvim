@@ -112,7 +112,7 @@ return {
 			-- Buffers
 			["<leader>b"] = "Buffers",
 			["<leader>bd"] = "Delete Buffer Options",
-			["<leader>bdo"] = { "<cmd>%bd|e#|bd#<CR>", "Delete Other Buffer" },
+			["<leader>bdo"] = { "<cmd>%bd|e#|bd#<CR>", "Delete Other Buffers" },
 			-- Explanation -
 			--  %bd - close all buffers
 			-- | (pipe, to run multiple commands
