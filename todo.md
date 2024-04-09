@@ -41,6 +41,7 @@ vim.diagnostic.config({
 - [ ] nvim-lint
 - [ ] dressing (stevearc/dressing.nvim) - "improve the default vim.ui interfaces"
 - [x] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
+- [ ] ncim-scissors - Make it easier to create and edit snippets
 
 ## Tools for Git
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
@@ -48,10 +49,6 @@ vim.diagnostic.config({
     - [ ] octo.nvim
     - [ ] gh.vim
 
-
-- [ ] create an "open in nvim" app that makes nvim in iterm the default editor for most files
-- [ ] update iterm app icon to be a terminal with a neovim logo (see reddit post from u/danbee "I made a neovim icon for macos". The high contrast icon looks best)
-- [ ] ncim-scissors - Make it easier to create and edit snippets
 
 ### From a reddit post with a cool setup 
 - [x] navic (with barbecue) or lsp saga
@@ -84,6 +81,7 @@ ESLINT
 - [ ] flit (ggandor/flit.nvim) - Enhanced f/t motions for Leap
 
 ## Themes to Try
+- [x] catppuccin
 - [ ] gruvbox
 - [ ] [embark theme](embark-theme.github.io) A deep inky purple theme leveraging bright colors. Designed to reduce visual clutter and help you focus on your code. Your editor can be both beautiful and useful. 
 - [x] everforest (sainnhe/everforest)
