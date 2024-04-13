@@ -15,6 +15,7 @@ vim.diagnostic.config({
 [dotfyle.com](https://dotfyle.com/)
 
 ## Plugins to Try
+- [ ] coc - https://github.com/neoclide/coc.nvim
 - [ ] telescope-undo.nvim
 - [ ] undo-tree 
 - [ ] inc-rename (smjonas / inc-rename.nvim) Incremental renaming for Neovim based on neovim's command-preview feature
