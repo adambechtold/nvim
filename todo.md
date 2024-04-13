@@ -28,7 +28,7 @@ vim.diagnostic.config({
   - [x] mini.indentscope
 - [x] bufferline.nvim (akinsho/nvim-bufferline.lua) - A snazzy bufferline for Neovim
 - [ ] noice (folke/noice.nvim) - Highly experimental plugin that completely replaces the ui for messages, cmdline, and popupmenu
-- [ ] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
+- [x] trouble (folke/trouble.nvim) - 🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing
 - [x] vim-illuminate (RRethy/vim-illuminate) - illuminate.vim - Vim plugin for automatically highlighting other uses of the word under the cursor.
 - [ ] yanky (gbprod/yank.nvim) - Improved yank and put functionalities for neovim (e.g. yank history)
 - [x] aerial (stevearc/aerial.nvim) - Code outline window

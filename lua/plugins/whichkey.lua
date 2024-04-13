@@ -47,11 +47,13 @@ return {
       ["<leader>gl"] = { "<cmd>LazyGit<CR>", "LazyGit" },
 
       -- Terminal - Update - 2024-04-09 - I usually use tmux for terminal
+      --[[
       ["<leader>t"] = "Terminal",
       ["<leader>tv"] = { "<cmd>vsplit term://zsh<CR>i", "New Terminal Vertical Split" },
       ["<leader>th"] = { "<cmd>split<CR><c-w>j <cmd>term<CR>i", "New Terminal Horizontal Split" },
       ["<leader>tt"] = { "<cmd>tabnew term://zsh<CR>", "New Terminal Tab" },
       ["<leader>tq"] = { "<cmd>bd!<CR>q<CR>", "Close Current Terminal" },
+      ]]
       -- Reminder: To escape terminal mode, use <C-\><C-n>
 
       -- Navigate Buffers
