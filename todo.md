@@ -16,6 +16,7 @@ vim.diagnostic.config({
 
 ## Plugins to Try
 - [ ] coc - https://github.com/neoclide/coc.nvim
+- [ ] vim visual multiline -https://github.com/mg979/vim-visual-multi
 - [ ] telescope-undo.nvim
 - [ ] undo-tree 
 - [ ] inc-rename (smjonas / inc-rename.nvim) Incremental renaming for Neovim based on neovim's command-preview feature
