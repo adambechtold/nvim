@@ -2,6 +2,10 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.cmd("set nowrap")
+vim.cmd("set cursorline")
+vim.cmd("set cursorcolumn")
+vim.cmd("set noswapfile")
 
 -- https://jeffkreeftmeijer.com/vim-number/
 vim.cmd("set number relativenumber") -- relativenumber")
@@ -15,6 +19,7 @@ vim.cmd("set smartcase") -- case-insensitive search, unless the search pattern h
 
 -- spelling 
 vim.cmd("set spell spelllang=en_us")
+vim.cmd("set spelloptions=camel")
 -- Reminders
 -- ]s and [s to navigate between spelling error_message
 -- ]S and [S to navigate between spelling error_message in different buffers
