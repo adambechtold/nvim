@@ -16,7 +16,8 @@ vim.diagnostic.config({
 
 ## Plugins to Try
 - [ ] coc - https://github.com/neoclide/coc.nvim
-- [ ] telescope-undo.nvim
+- [ ] vim-visual-multi - multi-line editing - https://github.com/mg979/vim-visual-multi
+e [ ] telescope-undo.nvim
 - [ ] undo-tree 
 - [ ] inc-rename (smjonas / inc-rename.nvim) Incremental renaming for Neovim based on neovim's command-preview feature
 - [ ] todo-comments (folke/todo-comments.nvim) - ✅ ✏️ Highlight, list and search todo comments in your projects
@@ -43,6 +44,7 @@ vim.diagnostic.config({
 - [ ] dressing (stevearc/dressing.nvim) - "improve the default vim.ui interfaces"
 - [x] indent-blankline.nvim (lukas-reineke/indent-blankline.nvim) - Indent guides for Neovim 
 - [ ] ncim-scissors - Make it easier to create and edit snippets
+- [ ] nvim silicon - https://www.youtube.com/watch?v=ig_HLrssAYE
 
 ## Tools for Git
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
@@ -91,3 +93,25 @@ ESLINT
 - [ ] monokai / monokai-pro
 - [ ] text-to-colorscheme - generate a colorscheme from a piece of text with ai
 
+# Motions to Learn
+
+- s - substitute - delete the character under the cursor and enter insert mode
+- S - substitute - delete the entire line and enter insert mode
+
+- c - change - combine with a motion to delete and enter insert mode (for example, cw to change word, ca' to jump to the next set of quotes and change everything inside them)
+- cc - change - delete the entire line and enter insert mode
+- C - change - delete from the cursor to the end of the line and enter insert mode
+
+- * - search for the word under the cursor (use n and shift n to navigate between occurrences)
+- . - repeat the last action (for example, if you change a word with ciw, you can change the next word with .)
+
+- motion p - stands for "paragraph", combine with with other movements like dp or >p to indent the paragraph
+
+Visual Mode
+- o - move to the other end of the highlighted text
+
+# Commands to Learn
+- :reg - view registers
+
+
+Add motions to macros to repeat them - for example 5@q will repeat the macro in register q 5 times
