@@ -155,6 +155,9 @@ return {
       -- oil
       ["<leader>o"] = "Oil",
       ["<leader>oo"] = { "<cmd>Oil<CR>", "Oil" },
+
+      -- Aerial 
+      ["<c-j>"] = { "<cmd>AerialToggle float<CR>", "Aerial Float (jump)" }
     })
   end,
 }
