@@ -46,6 +46,7 @@ vim.diagnostic.config({
 - [ ] ncim-scissors - Make it easier to create and edit snippets
 
 ## Tools for Git
+- [ ] diffview https://github.com/sindrets/diffview.nvim?tab=readme-ov-file
 - [ ] vim fugitive (tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal
 - [ ] PR Review Tool (octo seemed to be recommended a little bit more. It has some nice docs)
     - [ ] octo.nvim
