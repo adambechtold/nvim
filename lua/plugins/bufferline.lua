@@ -8,7 +8,7 @@ return {
       -- type :h bufferline-configuration for more info
       require("bufferline").setup({
         options = {
-          separator_style = "slant",
+          separator_style = "thick",
         },
       })
     end,
