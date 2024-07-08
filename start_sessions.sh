@@ -9,6 +9,7 @@ tmux new-window  -t code:4 -n apps-login    -c '/Users/adambechtold/Local/dev/vi
 tmux new-window  -t code:5 -n entity-types  -c '/Users/adambechtold/Local/dev/vibeiq/contrail-entity-types'
 tmux new-window  -t code:6 -n cli           -c '/Users/adambechtold/Local/dev/vibeiq/contrail-cli'
 tmux new-window  -t code:7 -n apps          -c '/Users/adambechtold/Local/dev/vibeiq/contrail-apps'
+tmux new-window  -t code:8 -n docs          -c '/Users/adambechtold/Local/dev/vibeiq/contrail-docs'
 
 # test session
 tmux new-session -s test   -n api-unit -d -c '/Users/adambechtold/Local/dev/vibeiq/contrail-api'
