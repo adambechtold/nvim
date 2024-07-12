@@ -14,7 +14,15 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Video explaining how to organize neovim plugins into folders https://www.youtube.com/watch?v=4zyZ3sw_ulc
-require("lazy").setup("plugins")
+require("lazy").setup({
+	spec = {
+		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
+		{ import = "lazyvim.plugins.extras.test.core" },
+		{ import = "lazyvim.plugins.extras.dap.core" },
+		{ import = "lazyvim.plugins.extras.lsp.none-ls" },
+		{ import = "plugins" },
+	},
+})
 require("vim-config")
 
 --[[
